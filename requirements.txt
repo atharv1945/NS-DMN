@@ -1,0 +1,8 @@
+llmlingua
+rapidfuzz
+networkx
+ollama
+faiss-cpu
+pydantic
+numpy
+sentence-transformers
