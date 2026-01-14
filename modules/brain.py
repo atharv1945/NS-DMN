@@ -42,7 +42,8 @@ class NeuralBrain:
                 self.compressor = PromptCompressor(
                     model_name="microsoft/llmlingua-2-bert-base-multilingual-cased-meetingbank",
                     device_map=LLM_LINGUA_DEVICE,
-                    model_config={"revision": "main"}
+                    model_config={"revision": "main"},
+                    use_llmlingua2=True
                 )
                 logger.info("LLMLingua Initialized.")
             except Exception as e:

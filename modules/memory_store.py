@@ -3,6 +3,7 @@ import json
 import pickle
 import threading
 import shutil
+import time
 import numpy as np
 import networkx as nx
 import faiss

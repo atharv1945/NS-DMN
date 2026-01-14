@@ -6,3 +6,6 @@ __pycache__/
 venv/
 env/
 .venv/
+
+data/
+logs/
